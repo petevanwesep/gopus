@@ -1,6 +1,6 @@
 // +build !amd64,!386,cgo
 
-package gopus // import "github.com/talkkonnect/gopus"
+package gopus // import "github.com/talkiebox/gopus"
 
 // #cgo !nopkgconfig pkg-config: opus
 //

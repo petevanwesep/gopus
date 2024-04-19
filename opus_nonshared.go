@@ -1,6 +1,6 @@
 // +build amd64,cgo 386,cgo
 
-package gopus // import "github.com/talkkonnect/gopus"
+package gopus // import "github.com/talkiebox/gopus"
 
 // #cgo linux darwin freebsd LDFLAGS: -lm
 //

@@ -206,7 +206,7 @@ libarmasm_la_OBJECTS = $(am_libarmasm_la_OBJECTS)
 AM_V_lt = $(am__v_lt_$(V))
 am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))
 am__v_lt_0 = --silent
-am__v_lt_1 = 
+am__v_lt_1 =
 #am_libarmasm_la_rpath =
 am__DEPENDENCIES_1 =
 libopus_la_DEPENDENCIES = $(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
@@ -731,11 +731,11 @@ am__v_P_1 = :
 AM_V_GEN = $(am__v_GEN_$(V))
 am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))
 am__v_GEN_0 = @echo "  GEN     " $@;
-am__v_GEN_1 = 
+am__v_GEN_1 =
 AM_V_at = $(am__v_at_$(V))
 am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))
 am__v_at_0 = @
-am__v_at_1 = 
+am__v_at_1 =
 DEFAULT_INCLUDES = -I.
 depcomp = $(SHELL) $(top_srcdir)/depcomp
 am__depfiles_maybe = depfiles
@@ -749,7 +749,7 @@ LTCPPASCOMPILE = $(LIBTOOL) $(AM_V_lt) $(AM_LIBTOOLFLAGS) \
 AM_V_CPPAS = $(am__v_CPPAS_$(V))
 am__v_CPPAS_ = $(am__v_CPPAS_$(AM_DEFAULT_VERBOSITY))
 am__v_CPPAS_0 = @echo "  CPPAS   " $@;
-am__v_CPPAS_1 = 
+am__v_CPPAS_1 =
 COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \
 	$(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
 LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
@@ -759,7 +759,7 @@ LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 AM_V_CC = $(am__v_CC_$(V))
 am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))
 am__v_CC_0 = @echo "  CC      " $@;
-am__v_CC_1 = 
+am__v_CC_1 =
 CCLD = $(CC)
 LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
@@ -767,7 +767,7 @@ LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
 AM_V_CCLD = $(am__v_CCLD_$(V))
 am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))
 am__v_CCLD_0 = @echo "  CCLD    " $@;
-am__v_CCLD_1 = 
+am__v_CCLD_1 =
 SOURCES = $(libarmasm_la_SOURCES) $(libopus_la_SOURCES) \
 	$(celt_tests_test_unit_cwrs32_SOURCES) \
 	$(celt_tests_test_unit_dft_SOURCES) \
@@ -1079,15 +1079,15 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1/missing aclocal-1.15
+ACLOCAL = ${SHELL} /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
 AR = ar
-ARM2GNU_PARAMS = 
+ARM2GNU_PARAMS =
 ARM_NEON_INTR_CFLAGS = -mfpu=neon
-AUTOCONF = ${SHELL} /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1/missing autoconf
-AUTOHEADER = ${SHELL} /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1/missing autoheader
-AUTOMAKE = ${SHELL} /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1/missing automake-1.15
+AUTOCONF = ${SHELL} /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1/missing autoconf
+AUTOHEADER = ${SHELL} /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1/missing autoheader
+AUTOMAKE = ${SHELL} /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1/missing automake-1.15
 AWK = mawk
 CC = gcc
 CCAS = gcc
@@ -1096,75 +1096,75 @@ CCASFLAGS = -g -O2
 CCDEPMODE = depmode=gcc3
 CFLAGS = -g -O2 -fvisibility=hidden -D_FORTIFY_SOURCE=2 -W -Wall -Wextra -Wcast-align -Wnested-externs -Wshadow -Wstrict-prototypes
 CPP = gcc -E
-CPPFLAGS = 
+CPPFLAGS =
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
 DLLTOOL = false
-DSYMUTIL = 
-DUMPBIN = 
-ECHO_C = 
+DSYMUTIL =
+DUMPBIN =
+ECHO_C =
 ECHO_N = -n
-ECHO_T = 
+ECHO_T =
 EGREP = /bin/grep -E
-EXEEXT = 
+EXEEXT =
 FGREP = /bin/grep -F
 GREP = /bin/grep
 HAVE_ARM_NE10 = 0
 HAVE_DOT = no
 HAVE_DOXYGEN = no
-HAVE_PERL = 
+HAVE_PERL =
 INSTALL = /usr/bin/install -c
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LD = /usr/bin/ld
-LDFLAGS = 
+LDFLAGS =
 LIBM = -lm
-LIBOBJS = 
-LIBS = 
+LIBOBJS =
+LIBS =
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
-LIPO = 
+LIPO =
 LN_S = ln -s
-LTLIBOBJS = 
-LT_SYS_LIBRARY_PATH = 
-MAINT = 
-MAKEINFO = ${SHELL} /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1/missing makeinfo
+LTLIBOBJS =
+LT_SYS_LIBRARY_PATH =
+MAINT =
+MAKEINFO = ${SHELL} /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1/missing makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /bin/mkdir -p
-NE10_CFLAGS = 
-NE10_LIBS = 
+NE10_CFLAGS =
+NE10_LIBS =
 NM = /usr/bin/nm -B
-NMEDIT = 
+NMEDIT =
 OBJDUMP = objdump
 OBJEXT = o
-OPUS_ARM_MAY_HAVE_EDSP = 
-OPUS_ARM_MAY_HAVE_MEDIA = 
-OPUS_ARM_MAY_HAVE_NEON = 
+OPUS_ARM_MAY_HAVE_EDSP =
+OPUS_ARM_MAY_HAVE_MEDIA =
+OPUS_ARM_MAY_HAVE_NEON =
 OPUS_ARM_NEON_INTR_CFLAGS = -mfpu=neon
 OPUS_HAVE_RTCD = 1
 OPUS_LT_AGE = 8
 OPUS_LT_CURRENT = 8
 OPUS_LT_REVISION = 0
-OPUS_X86_AVX_CFLAGS = 
-OPUS_X86_SSE2_CFLAGS = 
-OPUS_X86_SSE4_1_CFLAGS = 
-OPUS_X86_SSE_CFLAGS = 
-OTOOL = 
-OTOOL64 = 
+OPUS_X86_AVX_CFLAGS =
+OPUS_X86_SSE2_CFLAGS =
+OPUS_X86_SSE4_1_CFLAGS =
+OPUS_X86_SSE_CFLAGS =
+OTOOL =
+OTOOL64 =
 PACKAGE = opus
 PACKAGE_BUGREPORT = opus@xiph.org
 PACKAGE_NAME = opus
 PACKAGE_STRING = opus 1.3.1
 PACKAGE_TARNAME = opus
-PACKAGE_URL = 
+PACKAGE_URL =
 PACKAGE_VERSION = 1.3.1
 PATH_SEPARATOR = :
 PC_BUILD = floating-point
 RANLIB = ranlib
 SED = /bin/sed
-SET_MAKE = 
+SET_MAKE =
 SHELL = /bin/bash
 STRIP = strip
 VERSION = 1.3.1
@@ -1172,21 +1172,21 @@ X86_AVX_CFLAGS = -mavx
 X86_SSE2_CFLAGS = -msse2
 X86_SSE4_1_CFLAGS = -msse4.1
 X86_SSE_CFLAGS = -msse
-abs_builddir = /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1
-abs_srcdir = /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1
-abs_top_builddir = /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1
-abs_top_srcdir = /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1
+abs_builddir = /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1
+abs_srcdir = /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1
+abs_top_builddir = /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1
+abs_top_srcdir = /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1
 ac_ct_AR = ar
 ac_ct_CC = gcc
-ac_ct_DUMPBIN = 
+ac_ct_DUMPBIN =
 am__include = include
 am__leading_dot = .
-am__quote = 
+am__quote =
 am__tar = $${TAR-tar} chof - "$$tardir"
 am__untar = $${TAR-tar} xf -
 bindir = ${exec_prefix}/bin
 build = armv7l-unknown-linux-gnueabihf
-build_alias = 
+build_alias =
 build_cpu = armv7l
 build_os = linux-gnueabihf
 build_vendor = unknown
@@ -1197,14 +1197,14 @@ docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
 host = armv7l-unknown-linux-gnueabihf
-host_alias = 
+host_alias =
 host_cpu = armv7l
 host_os = linux-gnueabihf
 host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1/install-sh
+install_sh = ${SHELL} /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -1220,8 +1220,8 @@ sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
 srcdir = .
 sysconfdir = ${prefix}/etc
-target_alias = 
-top_build_prefix = 
+target_alias =
+top_build_prefix =
 top_builddir = .
 top_srcdir = .
 AUTOMAKE_OPTIONS = subdir-objects
@@ -1658,7 +1658,7 @@ config.h: stamp-h1
 stamp-h1: $(srcdir)/config.h.in $(top_builddir)/config.status
 	@rm -f stamp-h1
 	cd $(top_builddir) && $(SHELL) ./config.status config.h
-$(srcdir)/config.h.in:  $(am__configure_deps) 
+$(srcdir)/config.h.in:  $(am__configure_deps)
 	($(am__cd) $(top_srcdir) && $(AUTOHEADER))
 	rm -f stamp-h1
 	touch $@
@@ -1726,7 +1726,7 @@ celt/arm/$(DEPDIR)/$(am__dirstamp):
 celt/arm/celt_pitch_xcorr_arm-gnu.lo: celt/arm/$(am__dirstamp) \
 	celt/arm/$(DEPDIR)/$(am__dirstamp)
 
-libarmasm.la: $(libarmasm_la_OBJECTS) $(libarmasm_la_DEPENDENCIES) $(EXTRA_libarmasm_la_DEPENDENCIES) 
+libarmasm.la: $(libarmasm_la_OBJECTS) $(libarmasm_la_DEPENDENCIES) $(EXTRA_libarmasm_la_DEPENDENCIES)
 	$(AM_V_CCLD)$(LINK) $(am_libarmasm_la_rpath) $(libarmasm_la_OBJECTS) $(libarmasm_la_LIBADD) $(LIBS)
 celt/$(am__dirstamp):
 	@$(MKDIR_P) celt
@@ -2124,7 +2124,7 @@ src/analysis.lo: src/$(am__dirstamp) src/$(DEPDIR)/$(am__dirstamp)
 src/mlp.lo: src/$(am__dirstamp) src/$(DEPDIR)/$(am__dirstamp)
 src/mlp_data.lo: src/$(am__dirstamp) src/$(DEPDIR)/$(am__dirstamp)
 
-libopus.la: $(libopus_la_OBJECTS) $(libopus_la_DEPENDENCIES) $(EXTRA_libopus_la_DEPENDENCIES) 
+libopus.la: $(libopus_la_OBJECTS) $(libopus_la_DEPENDENCIES) $(EXTRA_libopus_la_DEPENDENCIES)
 	$(AM_V_CCLD)$(libopus_la_LINK) -rpath $(libdir) $(libopus_la_OBJECTS) $(libopus_la_LIBADD) $(LIBS)
 
 clean-noinstPROGRAMS:
@@ -2192,25 +2192,25 @@ celt/tests/test_unit_types$(EXEEXT): $(celt_tests_test_unit_types_OBJECTS) $(cel
 src/opus_compare.$(OBJEXT): src/$(am__dirstamp) \
 	src/$(DEPDIR)/$(am__dirstamp)
 
-opus_compare$(EXEEXT): $(opus_compare_OBJECTS) $(opus_compare_DEPENDENCIES) $(EXTRA_opus_compare_DEPENDENCIES) 
+opus_compare$(EXEEXT): $(opus_compare_OBJECTS) $(opus_compare_DEPENDENCIES) $(EXTRA_opus_compare_DEPENDENCIES)
 	@rm -f opus_compare$(EXEEXT)
 	$(AM_V_CCLD)$(LINK) $(opus_compare_OBJECTS) $(opus_compare_LDADD) $(LIBS)
 celt/opus_custom_demo.$(OBJEXT): celt/$(am__dirstamp) \
 	celt/$(DEPDIR)/$(am__dirstamp)
 
-opus_custom_demo$(EXEEXT): $(opus_custom_demo_OBJECTS) $(opus_custom_demo_DEPENDENCIES) $(EXTRA_opus_custom_demo_DEPENDENCIES) 
+opus_custom_demo$(EXEEXT): $(opus_custom_demo_OBJECTS) $(opus_custom_demo_DEPENDENCIES) $(EXTRA_opus_custom_demo_DEPENDENCIES)
 	@rm -f opus_custom_demo$(EXEEXT)
 	$(AM_V_CCLD)$(LINK) $(opus_custom_demo_OBJECTS) $(opus_custom_demo_LDADD) $(LIBS)
 src/opus_demo.$(OBJEXT): src/$(am__dirstamp) \
 	src/$(DEPDIR)/$(am__dirstamp)
 
-opus_demo$(EXEEXT): $(opus_demo_OBJECTS) $(opus_demo_DEPENDENCIES) $(EXTRA_opus_demo_DEPENDENCIES) 
+opus_demo$(EXEEXT): $(opus_demo_OBJECTS) $(opus_demo_DEPENDENCIES) $(EXTRA_opus_demo_DEPENDENCIES)
 	@rm -f opus_demo$(EXEEXT)
 	$(AM_V_CCLD)$(LINK) $(opus_demo_OBJECTS) $(opus_demo_LDADD) $(LIBS)
 src/repacketizer_demo.$(OBJEXT): src/$(am__dirstamp) \
 	src/$(DEPDIR)/$(am__dirstamp)
 
-repacketizer_demo$(EXEEXT): $(repacketizer_demo_OBJECTS) $(repacketizer_demo_DEPENDENCIES) $(EXTRA_repacketizer_demo_DEPENDENCIES) 
+repacketizer_demo$(EXEEXT): $(repacketizer_demo_OBJECTS) $(repacketizer_demo_DEPENDENCIES) $(EXTRA_repacketizer_demo_DEPENDENCIES)
 	@rm -f repacketizer_demo$(EXEEXT)
 	$(AM_V_CCLD)$(LINK) $(repacketizer_demo_OBJECTS) $(repacketizer_demo_LDADD) $(LIBS)
 silk/tests/$(am__dirstamp):
@@ -2872,7 +2872,7 @@ check-TESTS:
 	log_list=`echo $$log_list`; trs_list=`echo $$trs_list`; \
 	$(MAKE) $(AM_MAKEFLAGS) $(TEST_SUITE_LOG) TEST_LOGS="$$log_list"; \
 	exit $$?;
-recheck: all 
+recheck: all
 	@test -z "$(TEST_SUITE_LOG)" || rm -f $(TEST_SUITE_LOG)
 	@set +e; $(am__set_TESTS_bases); \
 	bases=`for i in $$bases; do echo $$i; done \

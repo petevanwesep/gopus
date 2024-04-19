@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1'
+ac_pwd='/home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -941,12 +941,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
-S["install_sh"]="${SHELL} /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1/install-sh"
-S["MAKEINFO"]="${SHELL} /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1/missing makeinfo"
-S["AUTOHEADER"]="${SHELL} /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1/missing autoheader"
-S["AUTOMAKE"]="${SHELL} /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1/missing automake-1.15"
-S["AUTOCONF"]="${SHELL} /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1/missing autoconf"
-S["ACLOCAL"]="${SHELL} /home/talkkonnect/gocode/src/github.com/talkkonnect/gopus/opus-1.3.1/missing aclocal-1.15"
+S["install_sh"]="${SHELL} /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1/install-sh"
+S["MAKEINFO"]="${SHELL} /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1/missing makeinfo"
+S["AUTOHEADER"]="${SHELL} /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1/missing autoheader"
+S["AUTOMAKE"]="${SHELL} /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1/missing automake-1.15"
+S["AUTOCONF"]="${SHELL} /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1/missing autoconf"
+S["ACLOCAL"]="${SHELL} /home/talkiebox/gocode/src/github.com/talkiebox/gopus/opus-1.3.1/missing aclocal-1.15"
 S["VERSION"]="1.3.1"
 S["PACKAGE"]="opus"
 S["CYGPATH_W"]="echo"
